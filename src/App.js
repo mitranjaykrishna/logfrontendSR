@@ -52,7 +52,7 @@ function App() {
           type="text"
           id="message"
           name="message"
-          value={formData.level}
+          value={formData.message}
           onChange={handleChange}
           required
         />
@@ -62,7 +62,7 @@ function App() {
           type="text"
           id="resourceId"
           name="resourceId"
-          value={formData.level}
+          value={formData.resourceId}
           onChange={handleChange}
           required
         />
@@ -72,7 +72,7 @@ function App() {
           type="datetime-local"
           id="timestamp"
           name="timestamp"
-          value={formData.level}
+          value={formData.timestamp}
           onChange={handleChange}
           required
         />
@@ -82,7 +82,7 @@ function App() {
           type="text"
           id="traceId"
           name="traceId"
-          value={formData.level}
+          value={formData.traceId}
           onChange={handleChange}
           required
         />
@@ -92,7 +92,7 @@ function App() {
           type="text"
           id="spanId"
           name="spanId"
-          value={formData.level}
+          value={formData.spanId}
           onChange={handleChange}
           required
         />
@@ -102,7 +102,7 @@ function App() {
           type="text"
           id="commit"
           name="commit"
-          value={formData.level}
+          value={formData.commit}
           onChange={handleChange}
           required
         />
@@ -112,7 +112,7 @@ function App() {
           type="text"
           id="parentResourceId"
           name="parentResourceId"
-          value={formData.level}
+          value={formData.parentResourceId}
           onChange={handleChange}
           required
         />
